@@ -1,0 +1,15 @@
+{
+  "name": "backendapp",
+  "version": "0.0.1",
+  "description": "api para archivos y docker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "backendwptienda"
+  },
+  "author": "",
+  "license": "ISC"
+}
