@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "api para archivos y docker",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "node index"
   },
@@ -11,5 +12,8 @@
     "url": "backendwptienda"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }

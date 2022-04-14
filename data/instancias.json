@@ -1,0 +1,17 @@
+{
+  "instancias": [{
+    "id": "1",
+    "wpName": "wp_id_3eab496c-d84e-41f2-9fc2-c231a631b59b0",
+    "dbName": "db_id_bec58eb6-15a3-465f-b15f-64376d31f3060"
+  },
+  {
+    "id": "2",
+    "wpName": "wp_id_3eab496c-d84e-41f2-9fc2-c231a63b59b0",
+    "dbName": "db_id_bec58eb6-15a3-465f-b15f-64376d3f3060"
+  },
+  {
+    "id": "3",
+    "wpName": "wp_id_3eab496c-d84e-41f2-9fc2-c231a63b159b0",
+    "dbName": "a"
+  }]
+}

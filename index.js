@@ -1,14 +1,9 @@
-const { exec } = require("child_process");
-let dir = __dirname
-exec("script.sh " + __dirname , (error, stdout, stderr) => {
-    if (error) {
-        console.log(`error: ${error.message}`);
-        return;
-    }
-    if (stderr) {
-        console.log(`stderr: ${stderr}`);
-        return;
-    }
-    console.log(`stdout: ${stdout}`);
-});
-
+import {deployWP} from './lib/deployInstance.js'
+import {randmonPort} from './lib/randomPort.js'
+import path from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+let dir = __dirname;
+let port = randmonPort()
+deployWP(port,dir);
